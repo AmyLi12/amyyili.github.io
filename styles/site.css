@@ -16,6 +16,7 @@ body {
 
 .aboutme {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .aboutme-header {
@@ -50,13 +51,42 @@ body {
     padding:10px;
     text-align: center;
     border-radius: 10px;
+    margin: auto;
+    position: relative;
+    right: 350px;
+    top: 10px;
 }
 
 .mywork-section {
     background-color: #C4D5EC;
+    border-radius: 10px;
+    width: 780px;
+    margin: auto;
 }
 
 .mywork-buttons {
     display:flex;
     flex-direction:row;
+}
+
+.projectcards {
+    display:flex;
+    flex-direction: row;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    width: 225px;
+    height: 150px;
+}
+
+.cardimgstyle {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cardtextstyle p{
+    background-color: white;
+    margin:0px;
 }
