@@ -1,3 +1,27 @@
+ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.hometext {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color:inherit;
+}
+
+.navtext {
+    font-size: 20px;
+    background-color: #D9D9D9;
+    padding: 10px 14px 10px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:inherit;
+}
+
 .intro {
     display: flex;
     flex-direction: row;
