@@ -83,6 +83,7 @@ button {
 
 .design-button {
     background-color:#C4D5EC;
+    font-weight:600;
 }
 
 .coding-button {
@@ -100,7 +101,9 @@ button {
     display:flex;
     flex-direction: column;
     width: 225px;
-    height: 150px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color:inherit;
 }
 
 .cardimgstyle {
@@ -108,7 +111,16 @@ button {
     border-top-right-radius: 5px;
 }
 
-.cardtextstyle p{
+.cardtextstyle{
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    margin:0px;
+    padding: 10px 20px 20px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cardtextstyle h3{
     margin:0px;
 }
