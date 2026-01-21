@@ -67,11 +67,33 @@ body {
 .mywork-buttons {
     display:flex;
     flex-direction:row;
+    justify-content: space-evenly;
+}
+
+button {
+    border:none;
+    font-family: 'Figtree', serif;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    width:390px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.design-button {
+    background-color:#C4D5EC;
+}
+
+.coding-button {
+    background-color:#AAC3E6;
 }
 
 .projectcards {
     display:flex;
     flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
 }
 
 .card {
