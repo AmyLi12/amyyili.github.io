@@ -1,0 +1,62 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.intro-textbox {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+}
+
+.aboutme {
+    margin-top: 30px;
+}
+
+.aboutme-header {
+    font-size:20px;
+    font-weight: 700;
+    background-color: #BFFAB4;
+    width:110px;
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+    margin:auto;
+    position:relative;
+    right:270px;
+    top:10px;
+}
+
+.aboutme-textbox {
+    font-size:18px;
+    font-weight: 500;
+    background-color: #A8EA9C;
+    padding: 20px;
+    border-radius: 10px;
+    width: 579px;
+    margin:auto;
+}
+
+.mywork-header {
+    font-size:20px;
+    font-weight: 700;
+    background-color: #B4E6FA;
+    width:100px;
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mywork-section {
+    background-color: #C4D5EC;
+}
+
+.mywork-buttons {
+    display:flex;
+    flex-direction:row;
+}
