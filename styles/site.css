@@ -1,3 +1,4 @@
+/* Styling for the navigation bar in home page */
 ul {
     list-style-type: none;
     display:flex;
@@ -13,6 +14,11 @@ ul {
     color:inherit;
 }
 
+nav {
+    padding-bottom: 30px;
+    margin-top:20px;
+}
+
 .navtext {
     font-size: 20px;
     background-color: #D9D9D9;
@@ -20,8 +26,10 @@ ul {
     border-radius: 10px;
     text-decoration: none;
     color:inherit;
+    margin-right:20px;
 }
 
+/* Styling for main content of home page */
 .intro {
     display: flex;
     flex-direction: row;
@@ -36,6 +44,7 @@ ul {
 
 body {
     font-family: 'Figtree', sans-serif;
+    margin:0px;
 }
 
 .aboutme {
@@ -147,4 +156,33 @@ button {
 
 .cardtextstyle h3{
     margin:0px;
+}
+
+/* Styling for footer of home page */
+footer {
+    background-color: #D9D9D9;
+    max-width:100%;
+    padding:10px;
+    margin-top:70px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.footer-icons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-icon {
+    max-width:50px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.footer-text {
+    font-weight:600;
+    font-size:20px;
+    text-align: center;
 }
