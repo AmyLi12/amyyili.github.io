@@ -18,13 +18,22 @@
 
 <body>
   <nav>
-    <ul class="nav">
+    <ul class="nav"">
       <li> <a class="hometext" href="index.html"> Amy Li </a> </li>
       <li> <a class="navtext" href="resources/Amy_Li_Resume_UXDesign_2025.pdf"> Resume </a> </li>
     </ul>
   </nav>
 
   <a class="backbutton" href="index.html"> < Back </a>
+
+  <ul style="position:sticky; top:250px;">
+    <li><a href="#PhysicalPrototype"> Physical Prototype </a></li>
+    <li><a href="#Moodboard"> Moodboard </a></li>
+    <li><a href="#MarketResearch"> Market Research </a></li>
+    <li><a href="#GameDevelopment"> Game Development </a></li>
+    <li><a href="#GDIACShowcase"> GDIAC Showcase </a></li>
+    <li><a href="#Takeaways"> Takeaways </a></li>
+  </ul>
 
   <div class="projectheader">
     <img class="projectimg" src="images/project_legooserystore.png">
@@ -60,7 +69,7 @@
   <div class="projectsection">
     <div class="projectsubsection1">
       <div>
-        <h2 class="projectsubheader"> Physical Prototype </h2>
+        <h2 class="projectsubheader" id="PhysicalPrototype"> Physical Prototype </h2>
         <p class="projecttextsummary"> As soon as we settled on a basic concept of the game, I got right to work on a physical prototype of it.
         This physical prototype would help us visualize the game, its gameplay style, and forecast difficulties that players might encounter.
         In creating this prototype, it was easy for me to discretize most elements of our game, such as mapping our characters' movements to
@@ -117,7 +126,7 @@
   </div>
 
   <div class="projectsection">
-    <h2 class="projectsubheader"> Moodboard </h2>
+    <h2 class="projectsubheader" id="Moodboard"> Moodboard </h2>
     <p class="projecttextsummary"> With the gameplay figured out, it was time to brainstorm the game's artistic style. 
       As the design lead, I gathered my fellow designers to collaborate on a moodboard using FigJam. 
       Through FigJam, we were able to quickly share ideas and expediate understanding with visual references. </p>
@@ -133,7 +142,7 @@
   </div>
 
   <div class="projectsection">
-    <h2 class="projectsubheader"> Market Research </h2>
+    <h2 class="projectsubheader" id="MarketResearch"> Market Research </h2>
     <p class="projecttextsummary"> How does our game stand out among its competitors? Together with my team, we researched our game's competitors, such as Kingdom Rush and Bloons Tower Defense. 
       Understanding what made our game different from its competitors allowed us to zone in on unique features and capitalize on them during game development. 
     </p>
@@ -146,7 +155,7 @@
   </div>
 
   <div class="projectsection">
-    <h2 class="projectsubheader"> Game Development </h2>
+    <h2 class="projectsubheader" id="GameDevelopment"> Game Development </h2>
     <p class="projecttextsummary"> As this was a big project, we worked on it in 2-week sprints. 
       During the sprint, I worked on creating UI assets and ensuring that character and environmental assets were cohesive.
       Towards the end of the sprints, there were in-class playtesting sessions in which I conducted short ten minute user interviews 
@@ -184,7 +193,7 @@
 
       <div class="projectsubsection2" style="margin-top:0px;">
         <img class="projectimghorizontal" src="images/legooserystore_mockup2.png">
-        <p class="projecttextcaptioncard"> A later mockup of the game; skill indicators are unintrusive and effective .</p>
+        <p class="projecttextcaptioncard"> A later mockup of the game; skill indicators are unintrusive and effective.</p>
       </div>
     </div>
     
@@ -195,7 +204,7 @@
       This bright green contrasts with the grocery store’s colors and attracts the player’s attention once it appears, while the red is less eye-catching.
     </p>
   
-    <div class="projecttextsummary">
+    <div class="projecttextsummary" style="margin-top: 20px;">
       <h3 class="projectsubheader2"> User Testing </h3>  
       <p> One of the major complaints that I received from players was about the controls to activate the special geese abilities. 
         Having to tap on the goose, then swipe in any direction away from the goose was unintuitive and hard to learn. This problem 
@@ -204,31 +213,48 @@
         goose after they tapped on it. Since that motion was intuitive to them, I felt that our new control scheme should include it. 
         The rest of my team agreed, and offered holding down on the goose as an alternative to tapping on it. 
         With this new control scheme, we tested it out on a new batch of playtesters. 
-        This time, I had our players fill out a Google Form after completing the first five levels. </p>
+        This time, I had our players fill out a Google Form after they completed the first five levels. </p>
     </div>
 
-    <img class="projectimg" src="images/legooserystore_playtesting1.png">
-    <img class="projectimg" src="images/legooserystore_playtesting2.png">
+    <div class="projectsubsection1">
+      <div class="projectsubsection2">
+        <img class="projectimghorizontal" src="images/legooserystore_playtesting1.png">
+        <p class="projecttextcaptioncard"> Most of our players understood the new controls </p>
+      </div>
 
-    <p class="projecttextsmall"> Of course, our new control scheme wasn't perfect, but our players much preferred it over the old one. 
+      <div class="projectsubsection2">
+        <img class="projectimghorizontal" src="images/legooserystore_playtesting2.png">
+        <p class="projecttextcaptioncard"> Our new controls generally felt good to use! </p>
+      </div>
+    </div>
+
+    <p class="projecttextsmall" style="margin-top: 0px;"> Of course, our new control scheme wasn't perfect, but our players much preferred it over the old one. 
       We continued to make adjustments to make it more responsive and intuitive. </p>
   </div>
 
   <div class="projectsection">
-    <h2 class="projectsubheader"> GDIAC Showcase </h2>
+    <h2 class="projectsubheader" id="GDIACShowcase"> GDIAC Showcase </h2>
     <p class="projecttextsummary"> At long last, Showcase day arrived. 
       We were all excited for new players to try our game and take on the invading raccoons. 
-      To our surprise, fans of our previous game, Le Petit Raccoon, came to play the sequel! 
+      To our surprise, fans of our previous game, <i>Le Petit Raccoon</i>, came to play the sequel! 
       Welcoming both new and familiar faces, we spent the next few hours guiding our players through our game. 
       When the event came to a close, our professor announced the winners of the following awards: 
       Most Polished, Most Innovative, and Audience Favorite. Our team was thrilled to win <b> Most Polished! </b></p>
-    <img src="images/legooserystore_showcase.jpg">
-    <p class="projecttextsmall"> Winning an award after all the hard work we put into making the game the best it could be was incredibly rewarding. 
-      As a final accomplishment, we also successfully launched the game on both the App Store and Google Play Store!</p>
+    
+    <div class="projectsubsection1">
+      <div class="projectsubsection2">
+        <img class="projectimghorizontal" style="margin: auto;" src="images/legooserystore_showcase.jpg">
+        <p class="projecttextcaptioncard" style="margin: auto;"> Team Rocket Penguin at GDIAC Showcase 2025.</p>
+      </div>
+
+      <p class="projecttextsmall" style="text-wrap: balance;"> Winning an award after all the hard work we put into making the game the best it could be was incredibly rewarding. 
+      As a final accomplishment, we also successfully launched the game on both the <a href="https://apps.apple.com/us/app/le-goos%C3%A9ry-store/id6744664408">App Store</a> and 
+      <a href="https://play.google.com/store/apps/details?id=rocket.penguin.goosery.store.GE688A45&hl=en_US">Google Play Store</a>!</p>
+    </div>
   </div>
 
-  <div class="projectsection">
-    <h2 class="projectsubheader"> Takeaways </h2>
+  <div class="projectsection" style="margin-top:0px;">
+    <h2 class="projectsubheader" id="Takeaways"> Takeaways </h2>
     <p class="projecttextsummary"> 
       Taking on the roles of both design lead and UI/UX designer for this project was stressful at times. 
       But at the same time, it was enriching. I practiced new skills such as leading a small team, 
