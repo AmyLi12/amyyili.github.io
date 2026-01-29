@@ -203,6 +203,17 @@ footer {
     margin-left: 300px;
 }
 
+.sidebar {
+    position:fixed;
+    top:250px;
+    list-style-type:none;
+    color:inherit;
+}
+
+.sidebarlink {
+    text-decoration:none;
+}
+
 .projectheader {
     display: flex;
     flex-direction: row;
