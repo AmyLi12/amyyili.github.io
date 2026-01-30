@@ -191,6 +191,11 @@ footer {
     text-align: center;
 }
 
+/* General hover styling */
+.resumebutton:hover {
+    background-color: #C0C0C0;
+}
+
 /* Styling for Le Goosery Store page */
 .backbutton {
     text-decoration: none;
@@ -208,10 +213,13 @@ footer {
     top:250px;
     list-style-type:none;
     color:inherit;
+    padding-left:20px;
 }
 
 .sidebarlink {
     text-decoration:none;
+    color: inherit;
+    line-height: 1.8;
 }
 
 .projectheader {
@@ -399,4 +407,13 @@ footer {
     line-height: 1.3;
     margin: 0px;
     text-align:center;
+}
+
+/* Hover styling for Le Goosery Store */
+.sidebarlink:hover {
+    font-weight:700;
+}
+
+.backbutton:hover {
+    background-color: #C0C0C0;
 }
