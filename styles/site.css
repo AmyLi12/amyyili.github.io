@@ -59,7 +59,7 @@ body {
 .aboutme-header {
     font-size:20px;
     font-weight: 700;
-    background-color: #BFFAB4;
+    background-color: #EFE3BD;
     width:110px;
     padding:10px;
     text-align: center;
@@ -73,7 +73,7 @@ body {
 .aboutme-textbox {
     font-size:18px;
     font-weight: 500;
-    background-color: #A8EA9C;
+    background-color: #FBF7C1;
     padding: 20px;
     border-radius: 10px;
     width: 579px;
@@ -83,7 +83,7 @@ body {
 .mywork-header {
     font-size:20px;
     font-weight: 700;
-    background-color: #B4E6FA;
+    background-color: #A1C8EE;
     width:100px;
     padding:10px;
     text-align: center;
@@ -410,11 +410,15 @@ footer {
     text-align:center;
 }
 
-/* Hover styling for Le Goosery Store */
+/* Hover styling */
 .sidebarlink:hover {
     font-weight:700;
 }
 
 .backbutton:hover {
     background-color: #C0C0C0;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
