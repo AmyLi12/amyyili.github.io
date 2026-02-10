@@ -33,7 +33,44 @@ nav {
     margin-right:20px;
 }
 
+.resumebutton {
+    border:none;
+    width:140px;
+}
+
+.resumebutton_organize {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.resumeimg {
+    max-height: 20px;
+}
+
+.resumemenu {
+    z-index:2;
+    position: absolute;
+    display:flex;
+    flex-direction:column;
+    width:140px;
+}
+
+.resumeslink {
+    text-decoration: none;
+    color: inherit;
+    font-size:16px;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border-radius:5px;
+}
+
 /* Styling for main content of home page */
+.hidden {
+    display:none !important;
+}
+
 .intro {
     display: flex;
     flex-direction: row;
@@ -107,7 +144,7 @@ body {
     justify-content: space-evenly;
 }
 
-button {
+.mywork-buttons button {
     border:none;
     font-family: 'Figtree', serif;
     padding: 10px;
@@ -193,6 +230,19 @@ footer {
 
 /* General hover styling */
 .resumebutton:hover {
+    background-color: #C0C0C0;
+}
+
+.resumeslink:hover {
+    background-color: #C0C0C0;
+    text-decoration:underline;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.colorchange {
     background-color: #C0C0C0;
 }
 
