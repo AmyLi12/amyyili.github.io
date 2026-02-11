@@ -20,7 +20,20 @@
   <nav>
     <ul class="nav">
       <li> <a class="hometext" href="index.html"> Amy Li </a> </li>
-      <li> <a class="navtext resumebutton" href="resources/Amy_Li_Resume_UXDesign_2025.pdf"> Resume </a> </li>
+      <li> 
+        <div>
+          <button id="resumebutton" class="navtext resumebutton"> 
+            <div class="resumebutton_organize"> 
+              <p style="margin:0px;"> Resumes </p>
+              <img id="resumeimg" class="resumeimg" src="images/dropdown_arrow.png">
+            </div>
+          </button>
+          <div id="resumemenu" class="hidden resumemenu">
+            <a class="resumeslink" href="resources/Amy_Li_Resume_ProductDesign_2025.pdf"> Product Design </a>
+            <a class="resumeslink" href="resources/Amy_Li_Resume_UXDesign_2025.pdf"> UX Design </a>
+          </div>
+        </div>  
+      </li>
     </ul>
   </nav>
 
@@ -293,6 +306,9 @@
     </div>
     <p> Website made by Amy Li</p>
   </footer>
+
+  <script src="scripts/jquery-3.7.1.js"></script>
+  <script src="scripts/resume_dropdown.js"></script>
 </body>
 
 </html>
