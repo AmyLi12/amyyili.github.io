@@ -314,6 +314,11 @@ footer {
     font-size: 18px;
 }
 
+.projectskills {
+    display: flex;
+    flex-direction: row;
+}
+
 .projectskill {
     padding: 10px;
     background-color: #FFFFFF;
@@ -322,6 +327,7 @@ footer {
     margin-bottom: 5px;
     font-size: 18px;
     text-align: center;
+    margin-right: 10px;
 }
 
 .projectsection {

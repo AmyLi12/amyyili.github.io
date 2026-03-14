@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Import Figtree font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="styles/site.css">
+
+  <title>Amy Li</title>
+</head>
+
+<body>
+  <nav>
+    <ul class="nav">
+      <li> <a class="hometext" href="index.html"> Amy Li </a> </li>
+      <li> 
+        <div>
+          <button id="resumebutton" class="navtext resumebutton"> 
+            <div class="resumebutton_organize"> 
+              <p style="margin:0px;"> Resumes </p>
+              <img id="resumeimg" class="resumeimg" src="images/dropdown_arrow.png">
+            </div>
+          </button>
+          <div id="resumemenu" class="hidden resumemenu">
+            <a class="resumeslink" href="resources/Amy_Li_Resume_ProductDesign_2025.pdf"> Product Design </a>
+            <a class="resumeslink" href="resources/Amy_Li_Resume_UXDesign_2025.pdf"> UX Design </a>
+          </div>
+        </div>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- <ul class="sidebar">
+    <li><a class="sidebarlink" href="#Intro"> Introduction </a></li>
+    <li><a class="sidebarlink" href="#ProblemStatement"> Problem Statement </a></li>
+    <li><a class="sidebarlink" href="#UserResearch"> User Research </a></li>
+    <li><a class="sidebarlink" href="#Ideation"> Ideation </a></li>
+    <li><a class="sidebarlink" href="#Prototyping"> Prototyping </a></li>
+    <li><a class="sidebarlink" href="#FinalDesign"> Final Design </a></li>
+    <li><a class="sidebarlink" href="#Takeaways"> Takeaways </a></li>
+  </ul> -->
+
+  <a class="backbutton" href="index.html"> < Back </a>
+
+  <div class="projectheader">
+    <img class="projectimg" style="max-height:255px;" src="images/project_suechef.jpg">
+
+    <div class="projecttextheader">
+      <h2 class="projectname"> Rocket Penguin Events </h2>
+      <p class="projectrole"> Full-stack JavaScript Developer </p>
+      <div class="projectskills">
+        <p class="projectskill"> MongoDB </p>
+        <p class="projectskill"> Express.js </p>
+        <p class="projectskill"> React </p>
+        <p class="projectskill"> Node.js </p>
+      </div> 
+    </div>
+  </div>
+
+  <div class="projectsection">
+    <h2 class="projectsubheader" id="Intro"> What is Sue Chef?</h2>
+    <p class="projecttextsummary">
+      SueChef is an app prototype designed for busy Cornell University students who need personalized cooking assistance. 
+      Its features include recommending recipes based on your mood, generating recipes based on scanned ingredients, and 
+      modifying recipes based on your preferences. You can try out the prototype below!
+    </p>
+
+    <div class="projectsubsection2">
+      <a href="https://www.figma.com/proto/uFkxyxXh9DkPFkSexi33Xk/INFO-3450-A5-final-prototype?type=design&node-id=73-3&t=pNmnwr52ulwWSl4I-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=73%3A3">
+        <img class="projectimghorizontal" src="images/suechefprototype.jpg">
+      </a>
+      <p class="projecttextcaption">Various screens from the prototype. Click on the image to interact with the prototype.</p>
+    </div>
+
+    <div class="projectsubsection1">
+      <div class="projecttextsummary">
+        <h3 class="projectsubheader2"> Project Context </h3>
+        <p>This app prototype was a semester-long project that I worked on with 4 other designers for a course, 
+          Human-Computer Interaction Design, at Cornell University. The goal of this project was to identify a 
+          pain point of a community of our choice and to devise a solution for it. During the project’s duration, we 
+          employed various methods, such as conducting contextual interviews and creating paper prototypes, to better understand 
+          our users and improve our prototype.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="pagedivider">
+
+  <div class="projectsection">
+    <h2 class="projectsubheader" id="ProblemStatement"> Problem Statement </h2>
+    <p class="projecttextsummary">
+      As many Cornell University students move to off-campus housing after their first year, they may struggle to find food 
+      from nearby eateries that accommodate their dietary restrictions. Combined with their busy school life, these students 
+      will have a hard time finding the perfect recipe that accommodates both their time and dietary restrictions. Our project 
+      aims to address these pain points by providing personalized cooking assistance that incorporates the user’s lifestyle and preferences.  
+    </p>
+  </div>
+
+  <div class="projectsection">
+    <h2 class="projectsubheader" id="UserResearch"> User Research </h2>
+    <p class="projecttextsummary">
+      To better understand the needs of our target audience, Cornell University students living off-campus, we each conducted contextual interviews. 
+      We first developed an interview script to be used in each session, then contacted members of our target group. During each interview, 
+      two team members participated - one interviewed the participant while the other took notes on their laptop. Each interview lasted 30 minutes and was conducted in the participant’s kitchen.
+    </p>
+
+    <div class="projectsubsection1">
+      <div class="projecttextsummary">
+        <h3 class="projectsubheader2"> Affinity Diagram </h3>
+        <p>
+          Afterwards, we gathered everyone’s notes from the interviews and created an affinity diagram using FigJam.
+        </p>
+      </div>
+    </div>
+
+    <div class="projectsubsection2">
+      <a href="figma.com/board/5apnu18TDedPLQ3s64wMHs/INFO-3450-Activity-Notes---Affinity-Diagram?node-id=0-1&p=f">
+        <img class="projectimg" src="images/suechef_affinity.png">
+      </a>
+      <p class="projecttextcaption"> A cropped view of our affinity diagram. Click on the image to view the full diagram.</p>
+    </div>
+
+    <div class="projecttextsmall">
+      <p>We organized our notes into four main clusters: cooking habits, personal information, frustrations, and grocery shopping. 
+      With an organized view of our target audience’s lifestyle and complaints, we were able to extract the following insights:</p>
+      <ul>
+        <li>People choose what to cook based on their schedule, leftovers, mood, and available ingredients.</li>
+        <li>People prioritize their health when they shop for groceries and cook.</li>
+        <li>People with dietary restrictions feel frustrated by their limited food options.</li>
+        <li>If people have time and are with friends, they’d love to explore complex recipes. </li>
+      </ul>
+      <p>These insights not only supported our problem statement, but also introduced new ideas to consider in our prototype, such as people cooking based on their mood and their want for healthy foods. </p>
+    </div>
+
+    <div class="projectsubsection1">
+      <div class="projecttextsummary">
+        <h3 class="projectsubheader2"> Persona </h3>
+        <p>
+          To best address these insights, we created a persona that embodies them.
+        </p>
+
+        <p style="margin-bottom:0px; font-weight:600; "> Meet Cindy! </p>
+        <p style="margin-top:10px; margin-bottom:10px;"> Cindy is a 21-year-old college student attending Cornell University. She: </p>
+        <ul style="margin-top:10px;">
+          <li>Lives off-campus</li>
+          <li>Has Celiac disease, so she has to actively avoid gluten consumption</li>
+          <li>Wants to explore new recipes</li>
+          <li>Wants to maintain healthy eating habits</li>
+          <li>Is burdened with a heavy academic workload</li>
+        </ul>  
+      </div>
+
+      <img class="projectimg" src="images/suechef_persona.png">
+    </div>
+  
+  </div>
+
+  <div class="projectsection">
+    <h2 class="projectsubheader" id="Ideation"> Ideation </h2>
+    <div class="projecttextsummary">
+      <p>
+        With a user persona in mind, we turned to designing. Before anything else, we researched the existing solution space to avoid making 
+        something that already exists. We found that although there were plenty of digital and physical solutions, none of them were a phone app 
+        that could record the user’s mood and allow for recipe modification. From there, we brainstormed a few more tasks that the user should be 
+        able to complete through our app. We came up with a total of five tasks:
+      </p>
+
+      <ul>
+        <li>Generating recipes based on scanned ingredients</li>
+        <li>Deciding on what to eat based on your mood</li>
+        <li>Scanning recipes/ingredients to modify a recipe</li>
+        <li>Sharing a custom recipe</li>
+        <li>Creating a user profile</li>
+      </ul>
+    </div>
+
+    <div class="projectsubsection1">
+      <div class="projecttextsummary" style="margin-top:20px;">
+        <h3 class="projectsubheader2"> Early Sketches </h3>
+        <p>
+          For each task, we sketched what the app's interface would look like. Some of the sketches are below:
+        </p>
+      </div>
+    </div>
+
+    <div class="projectsubsection1">
+      <div class="projectsubsection2" style="margin-top:0px;">
+        <img class="projectimgvertical" src="images/suechef_earlysketch1.png">
+        <p class="projecttextcaptioncard" style="width:330px;"> Early sketch of the profile creation screen.</p>
+      </div>
+
+      <div class="projectsubsection2" style="margin-top:0px;">
+        <img class="projectimgvertical" src="images/suechef_earlysketch2.png">
+        <p class="projecttextcaptioncard" style="width:330px;"> Early sketch of the scan screen. </p>
+      </div>
+    </div>
+
+    <div class="projectsubsection1">
+      <div class="projecttextsummary">
+        <h3 class="projectsubheader2"> Storyboards </h3>
+        <p>In addition to these sketches, we each created storyboards to envision the user’s experience with the app in their everyday life. 
+          We imagined the app would seamlessly integrate into the user’s life, becoming a reliable tool that the user can use daily.  </p>
+      </div>
+
+      <img class="projectimghorizontal" src="images/suechef_storyboard.png">
+    </div>
+  </div>
+
+  <div class="projectsection">
+    <h2 class="projectsubheader" id="Prototyping"> Prototyping </h2>
+    <p class="projecttextsummary">
+      Now that we had a clear vision of our app’s interface, it was time to bring it to life. Each of us created a paper prototype that allowed 
+      the user to complete the five tasks outlined earlier. To test how well our prototypes worked, we each conducted a usability test with 
+      participants from our target audience. As with the contextual interviews, we prepared a usability test protocol beforehand to ensure each 
+      test session was uniform. Feedback from these sessions revealed confusion with the recipe modification feature and the profile creation page being overly cluttered. 
+    </p>
+
+    <div class="projectsubsection1" style="width:800px; margin-left: auto; margin-right:auto;">
+      <img class="projectimgvertical" src="images/suechef_paperprototype.png">
+      <p class="projecttextsmall" style="text-wrap:pretty;" >This is my paper prototype demonstrating what modifying a recipe with available ingredients would look like in the app.</p>
+    </div>
+
+    <div class="projectsubsection1">
+      <div class="projecttextsummary">
+        <h3 class="projectsubheader2"> Mid-fidelity Prototype </h3>
+        <p> Keeping our users’ feedback in mind, we moved to Figma to create a mid-fidelity prototype of our app. 
+          Gathering another set of testers, we conducted usability test sessions with this prototype. 
+          We discovered there was confusion with “creating a recipe” and “modifying a recipe”, as both features shared the same icon. </p>
+      </div>
+    </div>
+
+    <div class="projectsubsection1" style="margin-bottom:0px;">
+      <div class="projectsubsection2" style="margin-top:0px;">
+        <img class="projectimgvertical" src="images/suechef_mid1.png">
+        <p class="projecttextcaptioncard" style="width:300px;">Mockup of the app's home screen.</p>
+      </div>
+
+      <div class="projectsubsection2" style="margin-top:0px;">
+        <img class="projectimgvertical" src="images/suechef_mid2.png">
+        <p class="projecttextcaptioncard" style="width:300px;">Mockup of the app's recipe screen.</p>
+      </div>
+    </div>
+  </div>
+  
+  <p class="projecttextsmall">
+    In addition to this, we each performed a heuristic evaluation on the prototype based on Nielson’s heuristics. 
+    From this, we discovered broken functionality such as the back buttons not working in some pages. 
+    Taking into account feedback from the usability test sessions and our own heuristic evaluations, we updated the prototype into its final version. 
+  </p>
+  
+  <div class="projectsection">
+    <h2 class="projectsubheader" id="FinalDesign"> Final Design </h2>
+    <p class="projecttextsummary">Here is SueChef’s final design! You can also interact with the prototype itself by clicking on any of the images below.</p>
+  
+    <div class="projectsubsection1">
+      <div class="projectsubsection2">
+        <a href="https://www.figma.com/proto/uFkxyxXh9DkPFkSexi33Xk/INFO-3450-A5-final-prototype?type=design&node-id=73-3&t=pNmnwr52ulwWSl4I-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=73%3A3">
+          <img class="projectimgvertical" src="images/suechef_final1.png">
+        </a>
+          <p class="projecttextcaption">Profile creation screen</p>
+      </div>
+    
+      <div class="projectsubsection2">
+        <a href="https://www.figma.com/proto/uFkxyxXh9DkPFkSexi33Xk/INFO-3450-A5-final-prototype?type=design&node-id=73-3&t=pNmnwr52ulwWSl4I-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=73%3A3">
+          <img class="projectimgvertical" src="images/suechef_final2.png">
+        </a>
+          <p class="projecttextcaption">Home screen</p>
+      </div>
+    
+      <div class="projectsubsection2">
+        <a href="https://www.figma.com/proto/uFkxyxXh9DkPFkSexi33Xk/INFO-3450-A5-final-prototype?type=design&node-id=73-3&t=pNmnwr52ulwWSl4I-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=73%3A3">
+          <img class="projectimgvertical" src="images/suechef_final3.png">
+        </a>
+        <p class="projecttextcaption">Recipe modification screen</p>
+      </div>
+
+      <div class="projectsubsection2">
+        <a href="https://www.figma.com/proto/uFkxyxXh9DkPFkSexi33Xk/INFO-3450-A5-final-prototype?type=design&node-id=73-3&t=pNmnwr52ulwWSl4I-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=73%3A3">
+          <img class="projectimgvertical" src="images/suechef_final4.png">
+        </a>
+        <p class="projecttextcaption">Scanned ingredients screen</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="projectsection" style="margin-top:0px;">
+    <h2 class="projectsubheader" id="Takeaways"> Takeaways </h2>
+    <p class="projecttextsummary">
+      This project was my first time stepping foot into the UI/UX field. 
+      Everything from conducting user interviews to creating paper prototypes to designing in Figma was brand new to me. 
+      One of my biggest struggles was motivating the dialogue in user interviews. I didn’t know when or how to ask questions outside of the provided interview script. 
+      But as I got more practice with conducting usability test sessions later on, I saw opportunities to question the user’s actions to understand their thought process. 
+      By the end of the project, not only did I get better at interviewing and using design tools, but I also discovered a new interest in UI/UX design that I was excited to pursue. 
+    </p>
+  </div>
+
+
+  <footer>
+    <p class="footer-text"> Let's connect! </p>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/amy-li-26bb1024b/"> <img class="footer-icon" src="images/linkedinlogo.webp" /> </a>
+      <a href="mailto:amyli0339@gmail.com"> <img class="footer-icon" src="images/emailicon.png" /> </a>
+    </div>
+    <p> Website made by Amy Li</p>
+  </footer>
+
+  <script src="scripts/jquery-3.7.1.js"></script>
+  <script src="scripts/resume_dropdown.js"></script>
+</body>
+
+</html>
